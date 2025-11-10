@@ -25,7 +25,7 @@ public class LlmServiceFactory {
         // Création du modèle Gemini (comme dans votre TP 2)
         ChatModel model = GoogleAiGeminiChatModel.builder()
                 .apiKey(apiKey)
-                .modelName("gemini-1.5-flash") // Ou "gemini-2.5-flash"
+                .modelName("gemini-2.5-flash")
                 .temperature(0.7)
                 .build();
 
